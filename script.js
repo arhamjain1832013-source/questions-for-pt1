@@ -148,3 +148,37 @@ function selectAnswer(selectedIndex, element) {
         showQuestion();
     }, 1200);
 }
+// ============================
+// PART 4
+// End Quiz + Restart System
+// ============================
+
+function endQuiz() {
+
+    document.getElementById("quiz").innerHTML = `
+        <h2>🎉 Quiz Completed!</h2>
+        <h3>Your Final Score: ${score} / ${quizQuestions.length}</h3>
+
+        <button onclick="restartQuiz()">Restart Quiz</button>
+    `;
+}
+
+function restartQuiz() {
+
+    // reset values
+    score = 0;
+    currentIndex = 0;
+    quizQuestions = [];
+
+    // show start screen again
+    document.querySelector(".card").classList.remove("hidden");
+
+    // reset quiz UI
+    document.getElementById("quiz").innerHTML = `
+        <h2 id="question"></h2>
+        <div id="options"></div>
+        <div id="score"></div>
+    `;
+
+    document.getElementById("quiz").classList.add("hidden");
+}
