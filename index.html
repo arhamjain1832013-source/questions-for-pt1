@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 8 Science Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🧪 Grade 8 Science Master</h1>
+    <p>Learn • Practice • Score Full Marks</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Select Chapter</h2>
+
+        <select id="chapter">
+            <option value="chapter1">Chapter 1 - Solutes, Solvents & Solutions</option>
+            <option value="chapter2">Chapter 2</option>
+        </select>
+
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="quiz" class="hidden">
+
+        <h2 id="question"></h2>
+
+        <div id="options"></div>
+
+        <button id="nextBtn" onclick="nextQuestion()">Next Question</button>
+
+        <h3 id="score"></h3>
+
+    </div>
+
+</div>
+
+<footer>
+    Made by Arham in Grade 8 Students 
+    made by grade
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
