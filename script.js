@@ -108,3 +108,43 @@ function showQuestion() {
     document.getElementById("score").innerText =
         "Score: " + score;
 }
+// ============================
+// PART 3
+// Answer Checking + Scoring
+// ============================
+
+function selectAnswer(selectedIndex, element) {
+
+    let options = document.querySelectorAll(".option");
+
+    // disable clicking after selection
+    options.forEach(opt => {
+        opt.style.pointerEvents = "none";
+    });
+
+    let correctIndex = currentQuestion.answer;
+
+    // correct answer
+    if (selectedIndex === correctIndex) {
+
+        element.classList.add("correct");
+        score++;
+
+    } else {
+
+        element.classList.add("wrong");
+
+        // highlight correct answer
+        options[correctIndex].classList.add("correct");
+    }
+
+    // update score display
+    document.getElementById("score").innerText =
+        "Score: " + score;
+
+    // move to next question after delay
+    setTimeout(() => {
+        currentIndex++;
+        showQuestion();
+    }, 1200);
+}
