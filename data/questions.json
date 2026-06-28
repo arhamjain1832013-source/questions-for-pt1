@@ -1,0 +1,112 @@
+[
+  {
+    "question": "What is a solute?",
+    "options": [
+      "A substance that dissolves",
+      "A substance that dissolves the solute",
+      "A gas",
+      "A liquid only"
+    ],
+    "answer": 0,
+    "chapter": "chapter1"
+  },
+  {
+    "question": "What is a solvent?",
+    "options": [
+      "A substance that gets dissolved",
+      "A substance that dissolves the solute",
+      "A solid",
+      "A gas"
+    ],
+    "answer": 1,
+    "chapter": "chapter1"
+  },
+  {
+    "question": "Which is called the universal solvent?",
+    "options": [
+      "Oil",
+      "Water",
+      "Milk",
+      "Alcohol"
+    ],
+    "answer": 1,
+    "chapter": "chapter1"
+  },
+  {
+    "question": "Which of these is insoluble in water?",
+    "options": [
+      "Sugar",
+      "Salt",
+      "Sand",
+      "Glucose"
+    ],
+    "answer": 2,
+    "chapter": "chapter1"
+  },
+  {
+    "question": "A homogeneous mixture is called a:",
+    "options": [
+      "Suspension",
+      "Solution",
+      "Compound",
+      "Element"
+    ],
+    "answer": 1,
+    "chapter": "chapter1"
+  },
+  {
+    "question": "Which factor helps solids dissolve faster?",
+    "options": [
+      "Stirring",
+      "Cooling",
+      "Freezing",
+      "None"
+    ],
+    "answer": 0,
+    "chapter": "chapter1"
+  },
+  {
+    "question": "What is a saturated solution?",
+    "options": [
+      "A solution that cannot dissolve more solute",
+      "A solution with no solute",
+      "A solid",
+      "A gas"
+    ],
+    "answer": 0,
+    "chapter": "chapter1"
+  },
+  {
+    "question": "Which process can separate salt from salt water?",
+    "options": [
+      "Filtration",
+      "Evaporation",
+      "Magnetism",
+      "Sedimentation"
+    ],
+    "answer": 1,
+    "chapter": "chapter1"
+  },
+  {
+    "question": "Which mixture is heterogeneous?",
+    "options": [
+      "Sugar solution",
+      "Salt solution",
+      "Sand and water",
+      "Vinegar"
+    ],
+    "answer": 2,
+    "chapter": "chapter1"
+  },
+  {
+    "question": "Which of the following is soluble in water?",
+    "options": [
+      "Sand",
+      "Chalk powder",
+      "Sugar",
+      "Sawdust"
+    ],
+    "answer": 2,
+    "chapter": "chapter1"
+  }
+]
